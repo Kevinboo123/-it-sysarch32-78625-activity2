@@ -1,15 +1,13 @@
+import React from "react";
 
-
-function Student(){
-
-    return(
-        <div class="card">
-            <img class "card-image" > </img>
-            <h2>Kevin Apiag</h2>
-            <p>kevinapiag16@gmail.com</p>
-
-        </div>
-    );
+function Student({ photo, name, email }) {
+  return (
+    <div className="card">
+      <img src={photo} alt="profile" />
+      <h2 id="name">{name}</h2>
+      <p id="email">{email}</p>
+    </div>
+  );
 }
 
-export default Student
+export default Student;

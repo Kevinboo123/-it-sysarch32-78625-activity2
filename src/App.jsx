@@ -1,14 +1,14 @@
 import Header from "./Header.jsx"
-import Content from "./Content.jsx"
-import Student from "./Student.jsx"
 import Footer from "./Footer.jsx"
+import StudentList from "./StudentList.jsx";
+
 
 function App() {
 
     return(
       <>
         <Header/>
-        <Content/>
+        <StudentList/>
         <Footer/>
       </>
     );
