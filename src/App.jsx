@@ -1,6 +1,8 @@
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
-import StudentList from "./StudentList.jsx";
+
+import Contentv1 from "./Contentv1.jsx";
+
 
 
 function App() {
@@ -8,8 +10,9 @@ function App() {
     return(
       <>
         <Header/>
-        <StudentList/>
+        <Contentv1/>
         <Footer/>
+       
       </>
     );
 }
